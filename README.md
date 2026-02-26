@@ -101,6 +101,13 @@ H  Production Deployment       ── 生产环境落地             🔜 计划
 | [Claude Code Guide](courses/claude-code-guide/) | Claude Code 钩子、扩展与专业模式 | Anthropic | 6 | ✅ |
 | [Claude Skills Development](courses/claude-skills-development/) | Claude 技能从设计到分发 | Anthropic | 5 | ✅ |
 | [Claude Cowork](courses/claude-cowork/) | Anthropic Cowork 协作平台 | Anthropic | 5 | ✅ |
+| [Agentic Design Patterns](courses/agentic-design-patterns/) | 21 种 AI Agent 设计模式深度拆解 | Antonio Gulli | 18 | ✅ |
+| [AI Agents Technical Guide](courses/ai-agents/) | AI Agent 技术全景指南 | Google Cloud | 8 | ✅ |
+| [Building Effective Agents](courses/building-effective-agents/) | Anthropic 官方 Agent 构建白皮书 | Erik Schluntz, Barry Zhang · Anthropic | 5 | ✅ |
+| [AnythingLLM](courses/anythingllm/) | 开源 LLM 平台：RAG、Agent、工作流 | Mintplex Labs | 6 | ✅ |
+| [Google ADK](courses/google-adk/) | Google Agent Development Kit 开发实战 | Google | 6 | ✅ |
+| [OpenAI Agents SDK](courses/openai-agents-sdk/) | OpenAI Agents SDK 从基础到多 Agent 系统 | Henry Habib · Packt | 9 | ✅ |
+| [Vector Database](courses/vector-database/) | 向量数据库：从嵌入到 RAG 实战 | O'Reilly Media | 10 | ✅ |
 
 > 更多课程持续整理中。关注本仓库以获取更新。
 
