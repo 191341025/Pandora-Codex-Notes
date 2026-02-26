@@ -1,0 +1,74 @@
+name: "Request a Course / 提交文档请求"
+description: "推荐一份技术文档（不限领域），让我把它变成结构化中文笔记"
+title: "[Request] "
+labels: ["course-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢你的推荐！请填写以下信息，帮助我评估这份文档。
+
+  - type: input
+    id: doc-name
+    attributes:
+      label: "文档名称"
+      description: "文档的标题或名称"
+      placeholder: "例：Building Effective Agents - Anthropic / The Rust Programming Language"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: doc-type
+    attributes:
+      label: "文档类型"
+      options:
+        - PDF
+        - Markdown
+        - 网页 / 在线文档
+        - 纯文本
+        - 其他
+    validations:
+      required: true
+
+  - type: input
+    id: doc-link
+    attributes:
+      label: "文档链接或来源"
+      description: "公开下载链接、官方页面地址等"
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: doc-pages
+    attributes:
+      label: "大致页数 / 长度"
+      placeholder: "例：64 页 / 约 15000 字"
+
+  - type: textarea
+    id: doc-topic
+    attributes:
+      label: "文档主题简述"
+      description: "这份文档讲什么？属于哪个技术领域？"
+      placeholder: "例：Google Cloud 出品的 AI Agent 技术指南 / Rust 官方入门教程 / 分布式系统论文"
+    validations:
+      required: true
+
+  - type: textarea
+    id: focus
+    attributes:
+      label: "你最想弄明白的部分（可选）"
+      description: "有没有特别想深入理解的章节或概念？"
+      placeholder: "例：第三章的 RAG 架构设计，想理解不同检索策略的取舍"
+
+  - type: dropdown
+    id: mode
+    attributes:
+      label: "建议处理模式"
+      description: "课程模式适合教程/指南类文档，论文精读适合学术论文"
+      options:
+        - "课程笔记（教程/指南/技术文档）"
+        - "论文精读（学术论文）"
+        - "不确定，交给作者判断"
+    validations:
+      required: true
