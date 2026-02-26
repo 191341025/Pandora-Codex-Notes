@@ -177,46 +177,42 @@ git clone https://github.com/191341025/Pandora-Codex-Notes.git
 
 > 以下为已规划或在考虑中的方向。Star 本仓库可以第一时间收到更新通知。
 
-### AI & LLM（持续扩展中）
+### AI & LLM
 
-| 主题 | 源材料方向 | 状态 |
-|------|-----------|:----:|
-| AI Agent 设计模式 | 21 种模式深度拆解 (482p) | 整理中 |
-| OpenAI Agents SDK | Agent 开发完整指南 (220p) | 整理中 |
-| Anthropic Agent 构建 | 官方白皮书 | 整理中 |
-| 向量数据库与 RAG | O'Reilly 系列 | 整理中 |
-| Structured Output | 结构化输出技术 | 计划中 |
+| 主题 | 源材料 | 作者 | 状态 |
+|------|--------|------|:----:|
+| Structured Output | 结构化输出技术 | Anthropic / OpenAI | 计划中 |
+| 更多论文精读 | arXiv 等学术平台 | — | 持续中 |
 
 ### 系统设计与架构
 
-| 主题 | 源材料方向 | 状态 |
-|------|-----------|:----:|
-| Designing Data-Intensive Applications | Martin Kleppmann · O'Reilly | 计划中 |
-| 微服务架构 | Sam Newman · O'Reilly | 计划中 |
-| 软件架构基础 | Richards & Ford · O'Reilly | 计划中 |
+| 主题 | 源材料 | 作者 | 状态 |
+|------|--------|------|:----:|
+| 数据密集型应用设计 | Designing Data-Intensive Applications | Martin Kleppmann · O'Reilly | 计划中 |
+| 软件架构基础 | Fundamentals of Software Architecture | Mark Richards & Neal Ford · O'Reilly | 计划中 |
+| 软件架构难题 | Software Architecture: The Hard Parts | Neal Ford, Mark Richards et al. · O'Reilly | 计划中 |
 
-### 编程语言深入
+### 编程语言
 
-| 主题 | 源材料方向 | 状态 |
-|------|-----------|:----:|
-| Rust 编程 | Jim Blandy & Jason Orendorff · O'Reilly | 计划中 |
-| Go 语言 | Donovan & Kernighan | 计划中 |
-| Fluent Python | Luciano Ramalho · O'Reilly | 计划中 |
+| 主题 | 源材料 | 作者 | 状态 |
+|------|--------|------|:----:|
+| Rust 系统编程 | Programming Rust, 3rd Edition (2024) | Jim Blandy & Jason Orendorff · O'Reilly | 计划中 |
+| 流畅的 Python | Fluent Python, 2nd Edition | Luciano Ramalho · O'Reilly | 计划中 |
+| Go 语言 | The Go Programming Language | Donovan & Kernighan | 计划中 |
 
 ### 基础设施与 DevOps
 
-| 主题 | 源材料方向 | 状态 |
-|------|-----------|:----:|
-| Kubernetes 实战 | Burns, Beda & Hightower · O'Reilly | 计划中 |
-| 站点可靠性工程 (SRE) | Google · O'Reilly | 计划中 |
-| 基础设施即代码 | Kief Morris · O'Reilly | 计划中 |
+| 主题 | 源材料 | 作者 | 状态 |
+|------|--------|------|:----:|
+| Kubernetes | Kubernetes: Up and Running, 3rd Edition | Burns, Beda & Hightower · O'Reilly | 计划中 |
+| 云原生 DevOps | Cloud Native DevOps with Kubernetes, 2nd Edition | Arundel & Domingus · O'Reilly | 计划中 |
 
 ### 数据工程
 
-| 主题 | 源材料方向 | 状态 |
-|------|-----------|:----:|
-| 数据工程基础 | Joe Reis & Matt Housley · O'Reilly | 计划中 |
-| 流式计算系统 | Akidau, Chernyak & Lax · O'Reilly | 计划中 |
+| 主题 | 源材料 | 作者 | 状态 |
+|------|--------|------|:----:|
+| 数据工程基础 | Fundamentals of Data Engineering | Joe Reis & Matt Housley · O'Reilly | 计划中 |
+| 数据工程设计模式 | Data Engineering Design Patterns | O'Reilly | 计划中 |
 
 ---
 
