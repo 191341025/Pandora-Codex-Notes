@@ -94,23 +94,25 @@ H  Production Deployment       ── 生产环境落地             🔜 计划
   ✅ 已完成并验证  |  📝 进行中  |  🔜 计划中
 -->
 
-| 课程 | 主题 | 源材料 | 模块数 | 状态 |
-|------|------|--------|:------:|:----:|
-| [Prompt Engineering](courses/prompt-engineering/) | 提示工程基础到高级技术 | Google Prompt Engineering v7 (68p) | 5 | ✅ |
-| [Claude Tool Use](courses/claude-tool-use/) | Anthropic Tool Use API 完整指南 | Anthropic 官方文档 (18篇) | 5 | ✅ |
-| [Claude Code Guide](courses/claude-code-guide/) | Claude Code 钩子、扩展与专业模式 | Claude Code Complete Guide (289p) | 6 | ✅ |
-| [Building Skills for Claude](courses/building-skills-for-claude/) | Claude 技能从设计到分发 | Building Skills Guide (33p) | 5 | ✅ |
-| [Claude Cowork](courses/claude-cowork/) | Anthropic Cowork 协作平台 | Anthropic Cowork Documentation (17p) | 5 | ✅ |
+| 课程 | 主题 | 源材料作者 | 模块数 | 状态 |
+|------|------|-----------|:------:|:----:|
+| [Prompt Engineering](courses/prompt-engineering/) | 提示工程基础到高级技术 | Lee Boonstra · Google | 6 | ✅ |
+| [Claude Tool Use](courses/claude-tool-use/) | Anthropic Tool Use API 完整指南 | Anthropic | 5 | ✅ |
+| [Claude Code Guide](courses/claude-code-guide/) | Claude Code 钩子、扩展与专业模式 | Anthropic | 6 | ✅ |
+| [Claude Skills Development](courses/claude-skills-development/) | Claude 技能从设计到分发 | Anthropic | 5 | ✅ |
+| [Claude Cowork](courses/claude-cowork/) | Anthropic Cowork 协作平台 | Anthropic | 5 | ✅ |
 
 > 更多课程持续整理中。关注本仓库以获取更新。
 
 ## 论文精读
 
-| 论文 | 领域 | 关键词 |
-|------|------|--------|
-| [CLEF HIPE-2026](papers/2026-02-hipe2026/digest.md) | NLP / 历史文本分析 | 多语言关系抽取、知识图谱、OCR |
+学术论文（主要来自 [arXiv](https://arxiv.org/) 等开放平台）的结构化中文精读。每篇论文浓缩为**七个板块**：一句话总结 → 为什么值得关注 → 核心贡献 → 方法直觉 → 关键发现 → 局限与开放问题 → 启发与联想。
 
-论文精读采用**七板块结构**：一句话总结 → 为什么值得关注 → 核心贡献 → 方法直觉 → 关键发现 → 局限与开放问题 → 启发与联想。
+| 论文 | 领域 | 作者 | 关键词 |
+|------|------|------|--------|
+| [CLEF HIPE-2026](papers/2026-02-hipe2026/) | NLP / 数字人文 | Opitz, Raclé, Boros et al. | 多语言关系抽取、知识图谱、OCR |
+
+> 有想精读的 arXiv 论文？同样欢迎[提交请求](https://github.com/191341025/Pandora-Codex-Notes/issues/new?template=course-request.yml)。
 
 ---
 
@@ -166,12 +168,50 @@ git clone https://github.com/191341025/Pandora-Codex-Notes.git
 
 ## 更新计划
 
-- [ ] AI Agent 设计模式课程（21 种模式深度拆解）
-- [ ] OpenAI Agents SDK 开发指南
-- [ ] Anthropic 官方 Agent 构建白皮书
-- [ ] 向量数据库与 RAG 实现
-- [ ] Structured Output 课程
-- [ ] 更多论文精读
+> 以下为已规划或在考虑中的方向。Star 本仓库可以第一时间收到更新通知。
+
+### AI & LLM（持续扩展中）
+
+| 主题 | 源材料方向 | 状态 |
+|------|-----------|:----:|
+| AI Agent 设计模式 | 21 种模式深度拆解 (482p) | 整理中 |
+| OpenAI Agents SDK | Agent 开发完整指南 (220p) | 整理中 |
+| Anthropic Agent 构建 | 官方白皮书 | 整理中 |
+| 向量数据库与 RAG | O'Reilly 系列 | 整理中 |
+| Structured Output | 结构化输出技术 | 计划中 |
+
+### 系统设计与架构
+
+| 主题 | 源材料方向 | 状态 |
+|------|-----------|:----:|
+| Designing Data-Intensive Applications | Martin Kleppmann · O'Reilly | 计划中 |
+| 微服务架构 | Sam Newman · O'Reilly | 计划中 |
+| 软件架构基础 | Richards & Ford · O'Reilly | 计划中 |
+
+### 编程语言深入
+
+| 主题 | 源材料方向 | 状态 |
+|------|-----------|:----:|
+| Rust 编程 | Jim Blandy & Jason Orendorff · O'Reilly | 计划中 |
+| Go 语言 | Donovan & Kernighan | 计划中 |
+| Fluent Python | Luciano Ramalho · O'Reilly | 计划中 |
+
+### 基础设施与 DevOps
+
+| 主题 | 源材料方向 | 状态 |
+|------|-----------|:----:|
+| Kubernetes 实战 | Burns, Beda & Hightower · O'Reilly | 计划中 |
+| 站点可靠性工程 (SRE) | Google · O'Reilly | 计划中 |
+| 基础设施即代码 | Kief Morris · O'Reilly | 计划中 |
+
+### 数据工程
+
+| 主题 | 源材料方向 | 状态 |
+|------|-----------|:----:|
+| 数据工程基础 | Joe Reis & Matt Housley · O'Reilly | 计划中 |
+| 流式计算系统 | Akidau, Chernyak & Lax · O'Reilly | 计划中 |
+
+---
 
 如果这些笔记对你有帮助，欢迎 **Star** 支持，这是我持续整理分享的最大动力。
 
