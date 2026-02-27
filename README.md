@@ -27,7 +27,7 @@ These are **not** translations or excerpts — each topic is systematically rest
 - Engineers who want depth beyond surface-level tutorials
 - Learners who prefer building mental models over memorizing facts
 
-**Current focus:** AI & LLM technologies. More domains coming.
+**Current focus:** AI & LLM technologies, system design & distributed systems. More domains coming.
 
 > [Jump to content catalog →](#课程笔记)
 
@@ -40,7 +40,7 @@ These are **not** translations or excerpts — each topic is systematically rest
 这些笔记不是简单的翻译或摘抄，而是经过教学设计的**知识重构**——
 我的目标是：**读完我的笔记后，你能跳过原文的大部分内容，直接建立准确的心智模型。**
 
-目前的内容以 **AI/LLM** 为主，但这套方法适用于任何技术领域。未来会逐步扩展到更多方向。
+目前的内容以 **AI/LLM** 和**系统设计/分布式系统**为主，但这套方法适用于任何技术领域。未来会逐步扩展到更多方向。
 
 ### 笔记有什么不同？
 
@@ -108,6 +108,7 @@ H  Production Deployment       ── 生产环境落地             🔜 计划
 | [Google ADK](courses/google-adk/) | Google Agent Development Kit 开发实战 | Google | 6 | ✅ |
 | [OpenAI Agents SDK](courses/openai-agents-sdk/) | OpenAI Agents SDK 从基础到多 Agent 系统 | Henry Habib · Packt | 9 | ✅ |
 | [Vector Database](courses/vector-database/) | 向量数据库：从嵌入到 RAG 实战 | O'Reilly Media | 10 | ✅ |
+| [DDIA](courses/ddia/) | 数据密集型应用设计：从存储引擎到分布式共识 | Martin Kleppmann · O'Reilly | 12 | ✅ |
 
 > 更多课程持续整理中。关注本仓库以获取更新。
 
@@ -188,7 +189,7 @@ git clone https://github.com/191341025/Pandora-Codex-Notes.git
 
 | 主题 | 源材料 | 作者 | 状态 |
 |------|--------|------|:----:|
-| 数据密集型应用设计 | Designing Data-Intensive Applications | Martin Kleppmann · O'Reilly | 计划中 |
+| 数据密集型应用设计 | Designing Data-Intensive Applications | Martin Kleppmann · O'Reilly | ✅ 已完成 |
 | 软件架构基础 | Fundamentals of Software Architecture | Mark Richards & Neal Ford · O'Reilly | 计划中 |
 | 软件架构难题 | Software Architecture: The Hard Parts | Neal Ford, Mark Richards et al. · O'Reilly | 计划中 |
 
